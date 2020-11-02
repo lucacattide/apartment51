@@ -1,0 +1,3 @@
+RewriteEngine On 
+#RewriteBase http://apartment51.bhp2.it/
+RewriteRule ^/?$ index.php [L]

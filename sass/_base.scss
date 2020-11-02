@@ -1,0 +1,167 @@
+// Inizio SASS
+// Risoluzioni
+$break_2: 999px;
+$break_3: 749px;
+$break_4: 520px;
+$grid_0: 940px;
+$grid_3: 470px;
+// Colori
+$arancione: #FB7E13;
+$beige: #D8D2C4;
+$bianco: #fff;
+$blu: #1F515F;
+$blu-marino: #003E52;
+$fulvio: #F4145F;
+$ghiaccio: #D8D8D8;
+$gregorio: #5C5B59;
+$grey-border: #dedede;
+$grigio: #F4F4F4;
+$grigio-1: #6c6c6c;  
+$grigio-2: #808080; 
+$grigio-3: #ECECEC;
+$grigio-4: #efefef;
+$grigio-chiaro: #E6E6E6;
+$light-black: #1d1e2a;
+$metamorfosi: #600A06;
+$nero: #000;
+$nero-1: #212121;
+$rosso: #EE3C44;
+$samsa: #D9D9CB;
+$vintage: #B57E5E;
+$yellow: #f9cf03;
+// Fonts
+$acagiBold: "Akagi Pro W00 Bold";
+$sgraziato: 'sans-serif';
+$headline: 'montserratregular', 
+$sgraziato;
+$menu: 'baron_neueregular',
+$sgraziato;
+$paragrafo: 'montserratlight',
+$sgraziato;
+$sottotitolo: 'butlerblack',
+$sgraziato;
+$titolo: 'montserratmedium',
+$sgraziato;
+$titolo-sezione: 'baron_neue_boldbold',
+$sgraziato;
+$vr-articolo-corpo: 'Georgia', $sgraziato;
+// Fonts - Dimensioni
+$bold_font: 400;
+$font-size-arredo-tipo: 1.3rem;
+$font-size-arredo-titolo: 3.4rem;
+$font-size-arredo-corpo: 1.7rem;
+$font-size-landing: 4rem;
+$font-size-paragrafo: 2.1rem;
+$font-size-paragrafo-2: 1.6rem;
+$font-size-tagline: 1.4rem;
+$font-size-tagline-1: 1.2rem;
+$font-size-titolo: 3.6rem;
+$font-size-titolo-1: 7.2rem;
+$font-size-titolo-2: 5.4rem;
+$interlinea-headline: 1.7rem;
+$menu-size: 1.8rem;
+$paragrafo-discover-size: 1.5rem;
+$paragrafo-discover-size-1: 1.7rem;
+$paragrafo-discover-size-2: 2rem;
+$paragrafo-colori-size: 1.8rem;
+$paragrafo-interlinea: 2.2rem;
+$paragrafo-interlinea-1: 2.5rem;
+$paragrafo-interlinea-2: 2.7rem;
+$paragrafo-interlinea-3: 3rem;
+$paragrafo-quote-interlinea: 2.3rem;
+$paragrafo-tips-size: 1.4rem;
+$regular_font: 300;
+$sottotitolo-size: 7rem;
+$sottotitolo-size-1: 6rem;
+$sottotitolo-size-2: 4.8rem;
+$sottotitolo-size-mobile: 4.5rem;
+$sottotitolo-size-mobile-1: 5rem;
+$sottotitolo-size-mobile-2: 4.7rem;
+$titolo-interlinea: 8.5rem;
+$titolo-interlinea-1: 6.5rem;
+$titolo-interlinea-mobile: 5.5rem;
+$titolo-size: 13.7rem;
+$titolo-size-mobile: 8.7rem;
+$titolo-tips-size: 2.4rem;
+
+// Classi
+%cover {
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%sfondo {
+  background-attachment: scroll;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+// Generale
+a:focus,
+input:focus,
+.btn:focus {
+  outline: none !important;
+}
+
+b,
+strong {
+  font-weight: $bold_font;
+}
+
+body {
+  background-color: $grigio-3;
+  font-family: "akagiprow00-thinregular", sans-serif;
+  font-weight: $regular_font;
+  overflow-x: hidden;
+
+  .row {
+    margin: 0;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $regular_font;
+}
+
+h1 {
+  font-family: 'modern_no._20regular', serif;
+  font-weight: lighter;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+.black {
+  background-color: $light-black;
+}
+
+.nascosto {
+  display: none !important;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.deselezionato {
+  opacity: .2 !important;
+}
+
+// Fine SCSS

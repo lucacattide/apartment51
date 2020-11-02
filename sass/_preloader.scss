@@ -1,0 +1,21 @@
+// Inizio SCSS
+#loading {
+  background-color: $nero;
+  display: block;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+
+  img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    width: 12%;
+  }
+}
+// Fine SCSS

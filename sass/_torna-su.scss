@@ -1,0 +1,27 @@
+// Inizio SCSS
+// Torna Su
+.torna-su {
+
+	&.nascondi {
+		display: none !important;
+	}
+
+	&#{__pulsante} {
+		background-color: $arancione;
+		bottom: 0;
+		color: $nero;
+		font-size: $font-size-paragrafo;
+		padding: .7em 20px .5em;
+		position: fixed;
+		right: 0;
+		top: auto;
+		transition: background-color .3s ease-in-out, color .7s ease-in-out;
+		z-index: 9999;
+
+		&:hover {
+			background-color: $nero-1;
+			color: $arancione;
+		}
+	}
+}
+// Fine SCSS
